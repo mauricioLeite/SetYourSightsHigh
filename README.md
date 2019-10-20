@@ -1,13 +1,7 @@
 
 # Set Your Sights High
+
 NASA Space Apps Challenge 2019.
-
-<<<<<<< HEAD
-![Project logo](https://github.com/mauricioLeite/SetYourSightsHigh/blob/master/templates/static/src/Logo.png)
-=======
-![alt text](https://raw.githubusercontent.com/mauricioLeite/SetYourSightsHigh/blob/master/templates/static/src/Logo.png)
->>>>>>> master
-
 
 Our project it's a website with 3D Model to localize satellites and ISS (International Space Station), the system have a registration to you receive notification when satellites and ISS are passing you.
 
@@ -27,5 +21,5 @@ Design tools:
 
 ## Used Data
 
-Data about satellites TLE (TwoLine Elements set): [https://www.space-track.org](https://www.space-track.org/)
-Search satellites informations: https://earth.esa.int/web/guest/home 
+- Data about satellites TLE (TwoLine Elements set): [https://www.space-track.org](https://www.space-track.org/)
+- Search satellites informations: https://earth.esa.int/web/guest/home 
