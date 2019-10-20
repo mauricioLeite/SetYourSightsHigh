@@ -31,7 +31,7 @@ def distCalculation():
 			d = 40024 - d
 
 		real_dist = sqrt(pow(d,2)+pow(h,2))
-		if(real_dist < n):
+		if(real_dist < 14000):
 			flag[i] = 1
 			dists_v[i++] = real_dist
 			act = True
