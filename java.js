@@ -67,3 +67,12 @@ update = function() {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+
+
+function openDiscover() {
+    console.log("Discover");
+}
+
+function openJoin() {
+    console.log("Join");
+}
