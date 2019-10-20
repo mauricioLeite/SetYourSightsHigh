@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="static/style.css" />
     <script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js" type="text/javascript">
     </script>
   </head>
@@ -10,7 +10,7 @@
       <!--particulas do Background-->
       <div id="particles-js">
         <div class="navbar">
-            <img  class="logo" src="src/Logo.png">
+            <img  class="logo" src="static/src/Logo.png">
         </div>
         <div class="menu">
             <p onclick="openDiscover()">Discover</p>
@@ -69,22 +69,18 @@
                 <h2>Living in our world</h2>
         </div>
         <div>
-                <img  class="logonasa"src="src/nasa.png">
+                <img  class="logonasa"src="static/src/nasa.png">
         </div>       
       </div>
       <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
       <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
       <!-- stats.js lib -->
       <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-      <script src="java.js"></script>
-      
+      <script src="static/main.js"></script>
       
       <div>
-          <img  class="logonasa"src="src/nasa.png">
+          <img  class="logonasa"src="static/src/nasa.png">
       </div>
-
-
-
 
     <!--Modais-->
     <div id="joinModal" class="modaljoin">
@@ -92,7 +88,7 @@
             <!-- Modal content -->
             <div class="modaljoin-content">
                     <h1 class="letra" style="padding-left: 15px;">Join us for Satellite updates</h1>
-                    <form action="/action_page.php">
+                    <form action="">
                         <p>
                             <label class="letra" for="name">Name</label>
                             <input type="text" id="name" name="name" placeholder="Your name..">
@@ -112,7 +108,7 @@
     <div id="discoverModal" class="modaldiscover">
         <div class="modaldiscover-content">
             <h1 class="letra" style="padding-left: 15px;">Choose your search filter</h1>
-            <form action="/action_page.php">
+            <form action="">
                 <p>
                         <input type="radio" checked="checked" name="radio">
                         <span class="checkmark"></span>
