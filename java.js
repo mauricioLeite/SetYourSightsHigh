@@ -75,4 +75,6 @@ function openDiscover() {
 
 function openJoin() {
     console.log("Join");
+    var modal = document.getElementById("joinModal");
+    modal.style.display = "block";
 }

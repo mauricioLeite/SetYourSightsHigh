@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+      <!--particulas do Background-->
       <div id="particles-js">
         <div class="navbar">
             <img  class="logo" src="src/Logo.png">
@@ -15,23 +16,38 @@
         <div class="globo">
             <img class="imgglobo"src="src/globo.png">
         </div>
-
-
-
       </div>
       <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
       <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
       <!-- stats.js lib -->
       <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
       <script src="java.js"></script>
-                        <!--<div class="navbar">
-                            <img src="src/Logo.png" />
-                            <div class="menu">
-                            <p>Discover</p>
-                            <p>Join</p>
-                            </div>
-                        </div>-->
-    
+                        
+    <!--Modais-->
+    <div id="joinModal" class="modaljoin">
+
+            <!-- Modal content -->
+            <div class="modaljoin-content">
+                    <form action="/action_page.php">
+                        <p>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name..">
+                        </p>
+                        <p>
+                            <label for="Email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Your email..">
+                        </p>
+                        <p>
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" placeholder="Your city..">
+                        </p>
+                        <input type="submit" value="Submit">
+                    </form>
+            </div>
+      
+    </div>
+
+
 
     <!--      DEPOIS VER ISSO 
     <form action="/action_page.php">
