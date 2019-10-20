@@ -101,6 +101,26 @@ canvas {
     height: 100%;
 }
 
+
+.texto{
+    position:absolute;
+    top:50%;
+    left: 5%;
+    margin-top:-50px;
+}
+.texto h1{
+    color: #ffffff;
+    font-size: 300%;
+    margin-bottom: 0;
+}
+.texto h2{
+    color: #ffffff;
+    font-size: 180%;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
 /*css dos modais*/
 .modaljoin {
     display: none; /* Hidden by default */
@@ -146,8 +166,8 @@ input[type=submit] {
     width: 33%;
     background-color: #4CAF50;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 15px 0px;
+    margin-left: 35%;
     border: none;
     border-radius: 10px;
     cursor: pointer;
