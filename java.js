@@ -70,7 +70,8 @@ requestAnimationFrame(update);
 
 
 function openDiscover() {
-    console.log("Discover");
+    var modal = document.getElementById("discoverModal");
+    modal.style.display = "block";
 }
 
 function openJoin() {
