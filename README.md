@@ -23,3 +23,5 @@ Design tools:
 
 - Data about satellites TLE (TwoLine Elements set): [https://www.space-track.org](https://www.space-track.org/)
 - Search satellites informations: https://earth.esa.int/web/guest/home 
+- Research about how brazilian people are interesting in science:[https://www.unicamp.br](https://www.unicamp.br/unicamp/ju/noticias/2017/09/25/pesquisa-revela-que-brasileiro-gosta-de-ciencia-mas-sabe-pouco-sobre-ela)
+- Book about the Research :[http://percepcaocti.cgee.org.br](http://percepcaocti.cgee.org.br/wp-content/themes/cgee/files/sumario.pdf)
